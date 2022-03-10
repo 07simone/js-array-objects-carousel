@@ -12,19 +12,27 @@ div.my-carousel-images{
     background-color: cadetblue;
     min-height: 540px;
     object-fit: cover;
-    display: none;
-}
-div.my-carousel-images.active{
-    display: block;
     
 }
 
+.my-container{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.my-jumbo{
+    width: 100%;
+    height: 100%;
+}
+
+
 div.my-thumbnails{
     background-color: violet;
-     min-height: 160px; 
+    min-height: 160px; 
     display: flex;
-    /* height: 100%;
-    width: 100%;  */
+    height: 100%;
+    width: 100%;  
     object-fit: cover;
 }
 
