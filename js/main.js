@@ -24,26 +24,19 @@ const teamMarvel = [
         image: 'spider-man.jpg',
     },
     ];
-
-    let Principal ="";
-    let Secondary ="";
+    
+    const myCarouselImage = document.querySelector(".my-carousel-images")
+    myCarouselImage.innerHTML =`<img class ="img-fluid" src="img/${teamMarvel[1].image}" alt"">`
+    
+    const myThumbnails = document.querySelector(".my-thumbnails");
     for(let i = 0; i < teamMarvel.length; i++){
-        console.log(teamMarvel[i])
-        Principal +=`
-        <div class="my-container">
-        <img class ="img-fluid" src="img/${teamMarvel[i].image}" alt"">
-      
-        </div>`
-        Secondary += `
+        myThumbnails.innerHTML += `
         <div class="my-jumbo">
         <img class ="img-fluid" src="img/${teamMarvel[i].image}">
         
         </div>`
     }
-    const div = document.querySelector(".my-carousel-images")
-    const newDiv = document.createElement("div");
-    div.appendChild(newDiv)
-    newDiv.classList.add("my-container")
+
    /*  const PrincipalElement = document.querySelector(".my-container")
     PrincipalElement.innerHTML = Principal
 

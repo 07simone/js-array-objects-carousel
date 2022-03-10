@@ -14,16 +14,20 @@ div.my-carousel-images{
     object-fit: cover;
     
 }
+.my-carousel-images .img-fluid{
+    width: 100%;
+    height: 100%;
+}
 
-.my-container{
+ /* .my-container{
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
+}  */
 
 .my-jumbo{
+    
     width: 100%;
-    height: 100%;
 }
 
 
