@@ -26,13 +26,13 @@ const teamMarvel = [
     ];
     
     const myCarouselImage = document.querySelector(".my-carousel-images")
-    myCarouselImage.innerHTML =`<img class ="img-fluid" src="img/${teamMarvel[1].image}" alt"">`
+    myCarouselImage.innerHTML =`<img class ="immagine" src="img/${teamMarvel[1].image}" alt"">`
     
     const myThumbnails = document.querySelector(".my-thumbnails");
     for(let i = 0; i < teamMarvel.length; i++){
         myThumbnails.innerHTML += `
         <div class="my-jumbo">
-        <img class ="img-fluid" src="img/${teamMarvel[i].image}">
+        <img class ="immagine" src="img/${teamMarvel[i].image}">
         
         </div>`
     }

@@ -1,11 +1,13 @@
 body{
     font-family: "Montserrat", sans-serif;
+    background-image: url(https://cdn.bestmovie.it/wp-content/uploads/2018/05/AIW-IMAX-e1522937565642.jpg);
+    background-size: cover;
 }
 
 div.my-carousel-container{
     min-height: 700px;
     min-width:800px ;
-    background-color: aquamarine;
+    opacity: 0.85;
 }
 
 div.my-carousel-images{
@@ -14,7 +16,7 @@ div.my-carousel-images{
     object-fit: cover;
     
 }
-.my-carousel-images .img-fluid{
+.my-carousel-images .immagine{
     width: 100%;
     height: 100%;
 }
@@ -25,9 +27,10 @@ div.my-carousel-images{
     object-fit: cover;
 }  */
 
-.my-jumbo{
-    
+.my-jumbo .immagine{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -36,7 +39,7 @@ div.my-thumbnails{
     min-height: 160px; 
     display: flex;
     height: 100%;
-    width: 100%;  
+    width: 100%;   
     object-fit: cover;
 }
 
